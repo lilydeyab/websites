@@ -1,0 +1,106 @@
+{
+  "task": {
+    "id": "PHASE1-TASK1",
+    "name": "Target Customer & Use Cases",
+    "status": "implemented"
+  },
+  "product": {
+    "name": "AI Revenue Recovery & Conversion System",
+    "market": "US home-service companies",
+    "initial_vertical": [
+      "plumbing",
+      "heating",
+      "air_conditioning"
+    ]
+  },
+  "market_reference": {
+    "naics": "238220",
+    "us_establishments_2023": 111207,
+    "employees_20_plus": 12601,
+    "employees_50_plus": 4217,
+    "premium_proxy_is_not_actual_tam": true
+  },
+  "core_problem": "Revenue leakage across the customer lifecycle",
+  "economic_fit_signals": [
+    "inbound_lead_volume",
+    "missed_calls",
+    "after_hours_leads",
+    "unanswered_messages",
+    "unbooked_qualified_leads",
+    "follow_up_gaps",
+    "appointment_cancellations",
+    "no_shows",
+    "old_leads",
+    "average_job_value",
+    "service_area",
+    "operational_capacity",
+    "crm_availability",
+    "calendar_availability"
+  ],
+  "architecture": {
+    "model": "one_core_engine_multiple_scenarios",
+    "independent_system_per_use_case": false
+  },
+  "use_cases": [
+    {
+      "id": "UC-01",
+      "name": "Missed Call Recovery",
+      "entry_point": "missed_call"
+    },
+    {
+      "id": "UC-02",
+      "name": "After-Hours Recovery",
+      "entry_point": "after_hours_inquiry"
+    },
+    {
+      "id": "UC-03",
+      "name": "Lead Qualification",
+      "entry_point": "incoming_lead"
+    },
+    {
+      "id": "UC-04",
+      "name": "Follow-Up Recovery",
+      "entry_point": "follow_up"
+    },
+    {
+      "id": "UC-05",
+      "name": "Appointment Conversion",
+      "entry_point": "qualified_lead"
+    },
+    {
+      "id": "UC-06",
+      "name": "Appointment Recovery",
+      "entry_point": "appointment_event"
+    },
+    {
+      "id": "UC-07",
+      "name": "FAQ / Objection Handling",
+      "entry_point": "customer_question"
+    },
+    {
+      "id": "UC-08",
+      "name": "Old Lead Reactivation",
+      "entry_point": "old_lead"
+    },
+    {
+      "id": "UC-09",
+      "name": "Incoming Conversation Handling",
+      "entry_point": "communication_event"
+    },
+    {
+      "id": "UC-10",
+      "name": "Human Handoff",
+      "entry_point": "handoff_decision"
+    },
+    {
+      "id": "UC-11",
+      "name": "Revenue Attribution",
+      "entry_point": "job_outcome"
+    },
+    {
+      "id": "UC-12",
+      "name": "Recovery Analytics",
+      "entry_point": "revenue_event"
+    }
+  ]
+}
