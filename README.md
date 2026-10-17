@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+</head>
+<body>
 <div class="bt3t-page-1">
 <nav><div class="bta3-el-nav"><button>villas</button><button>Apartments</button><button>penthouse</button><button>Townhouse</button></div></nav>
 <div class="lel-logo-w-search"><a href="https://      .com">brand profile</a>
@@ -23,7 +31,7 @@
             2 bathrooms ,
             250m<sup>2</sup>
         </p>
-        
+    
     </div>
     <div class="fourth-line">
         <h3> location: Egypt,cairo </h3>
@@ -59,3 +67,5 @@ for foreigners only
 <h1>In contact</h1>
 <button>WhatsApp</button><button>Call History</button>
 </div>                             
+</body>
+</html>
