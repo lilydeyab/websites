@@ -1,8 +1,8 @@
 <div class="bt3t-page-1">
-</div><nav><div class="cbta3-el-nav"><button>villas</button><button>Apartments</button><button>penthouse</button><button>Townhouse</button></div></nav>
+<nav><div class="bta3-el-nav"><button>villas</button><button>Apartments</button><button>penthouse</button><button>Townhouse</button></div></nav>
 <div class="lel-logo-w-search"><a href="https://      .com">brand profile</a>
     <button>search</button>
-<input type="search"placeholder="search"></div>
+<input type="search" placeholder="search"></div>
 <div class="filter"><button>Filter</button></div>
 <div class="cards-template">
     <div class="category-pic">
