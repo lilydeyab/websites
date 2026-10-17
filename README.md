@@ -1,5 +1,5 @@
-<div class="bt3t page 1">
-</div><nav><div class="cbta3-el-nav"><button>villas</button><button>Apartements</button><button>penthhouse</button><button>Townhouse</button></div></nav>
+<div class="bt3t-page-1">
+</div><nav><div class="cbta3-el-nav"><button>villas</button><button>Apartments</button><button>penthouse</button><button>Townhouse</button></div></nav>
 <div class="lel-logo-w-search"><a href="https://      .com">brand profile</a>
     <button>search</button>
 <input type="search"placeholder="search"></div>
@@ -45,18 +45,18 @@ for foreigners only
     <button>Home</button><button>Search</button><button>Profile</button>
 </div>
 </div>
-<div class="bt3t page 2-search">
+<div class="bt3t-page-2-search">
 <h1>Search</h1><input type="Search"> 
 </div>
-<div class="bt3t page 3-profile">
+<div class="bt3t-page-3-profile">
 <h1>Profile</h1>
 <button>favorite</button><button>In contact</button>
 <h2>Recommendations</h2>
 </div>
-<div class="bt3t page 4-favorite">
+<div class="bt3t-page-4-favorite">
 <h1>Favorite</h1>
 </div>
-<div class="bt3t page 5-in-contact">
+<div class="bt3t-page-5-in-contact">
 <h1>In contact</h1>
 <button>WhatsApp</button><button>Call History</button>
 </div>                             
