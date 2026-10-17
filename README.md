@@ -41,10 +41,6 @@ for foreigners only
             <!--expanding card-->
       </div>
 </div>
-<div class="bottom-nav">
-    <button>Home</button><button>Search</button><button>Profile</button>
-</div>
-</div>
 <div class="bt3t-page-2-search">
 <h1>Search</h1><input type="Search"> 
 </div>
@@ -53,10 +49,13 @@ for foreigners only
 <button>favorite</button><button>In contact</button>
 <h2>Recommendations</h2>
 </div>
-<div class="bt3t-page-4-favorite">
+<div class="bottom-nav">
+    <button>Home</button><button>Search</button><button>Profile</button>
+</div>
+<div class="bt3t-page-4-favorite-located-in-profile">
 <h1>Favorite</h1>
 </div>
-<div class="bt3t-page-5-in-contact">
+<div class="bt3t-page-5-in-contact-located-in-profile">
 <h1>In contact</h1>
 <button>WhatsApp</button><button>Call History</button>
 </div>                             
