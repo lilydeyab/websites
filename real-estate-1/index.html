@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover exceptional properties for sale and rent.">
+  <title>Haven — Find Your Place</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">haven<span>.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#properties">Properties</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Get in touch ↗</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+
+        <h1>Find a place<br>to call <span>home.</span></h1>
+
+        <p class="hero-description">
+          Thoughtfully selected properties for the way you want to live.
+          Find a space that feels like yours.
+        </p>
+
+        <a href="#properties" class="primary-button">
+          Explore properties <span>↗</span>
+        </a>
+
+        <div class="hero-stats">
+          <div>
+            <strong>250+</strong>
+            <span>Properties</span>
+          </div>
+          <div>
+            <strong>120+</strong>
+            <span>Happy clients</span>
+          </div>
+          <div>
+            <strong>15+</strong>
+            <span>Locations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85"
+          alt="Modern luxury home surrounded by greenery"
+        >
+        <div class="hero-image-label">
+          <span>FEATURED LOCATION</span>
+          <strong>Modern living, redefined.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-section" aria-label="Search properties">
+      <form class="search-bar" id="searchForm">
+        <label class="search-field">
+          <span>Location</span>
+          <input id="locationInput" type="text"
+            placeholder="City or neighborhood">
+        </label>
+
+        <label class="search-field">
+          <span>Property type</span>
+          <select id="typeFilter">
+            <option value="all">All types</option>
+            <option value="house">House</option>
+            <option value="apartment">Apartment</option>
+            <option value="villa">Villa</option>
+          </select>
+        </label>
+
+        <label class="search-field">
+          <span>Listing</span>
+          <select id="listingFilter">
+            <option value="all">Buy or rent</option>
+            <option value="sale">For sale</option>
+            <option value="rent">For rent</option>
+          </select>
+        </label>
+
+        <button class="search-button" type="submit">
+          Search ↗
+        </button>
+      </form>
+    </section>
+
+    <section class="properties-section" id="properties">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2>Explore our properties<span>.</span></h2>
+          <p>Find a space that fits your life and your plans.</p>
+        </div>
+
+        <label class="sort-control">
+          <span>Sort by</span>
+          <select id="sortFilter">
+            <option value="featured">Featured</option>
+            <option value="low-high">Price: low to high</option>
+            <option value="high-low">Price: high to low</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="property-grid" id="propertyGrid">
+        <!-- JavaScript will render property cards here. -->
+      </div>
+
+      <p class="results-message" id="resultsMessage" aria-live="polite"></p>
+    </section>
+
+    <section class="about-section" id="about">
+      <p class="eyebrow">A BETTER WAY TO FIND HOME</p>
+      <h2>Good spaces make<br>room for <span>great living.</span></h2>
+      <p>
+        From your first apartment to your forever home,
+        discover properties selected with care.
+      </p>
+      <a href="#contact" class="primary-button">
+        Let's find your place ↗
+      </a>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">LET'S TALK</p>
+        <h2>Your next move<br>starts with a conversation.</h2>
+      </div>
+      <a href="mailto:hello@example.com" class="primary-button">
+        Contact our team ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">haven<span>.</span></a>
+    <p>Find your place. Make it home.</p>
+    <span>© 2026 Haven Realty</span>
+  </footer>
+
+  <dialog class="property-dialog" id="propertyDialog">
+    <button class="dialog-close" id="dialogClose"
+      aria-label="Close property details">✕</button>
+    <div id="propertyDetails"></div>
+  </dialog>
+
+</body>
+</html>
